@@ -50,4 +50,7 @@ int binary_tree_is_complete(const binary_tree_t *tree);
 #define FALSE 0
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
+int binary_tree_is_bst(const binary_tree_t *tree);
+int isValid(binary_tree_t *root);
+void inorder(binary_tree_t *root, binary_tree_t *prev[], int isvalid[]);
 #endif
