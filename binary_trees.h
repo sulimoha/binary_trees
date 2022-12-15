@@ -69,5 +69,6 @@ bst_t *replace_with_successor(bst_t **node);
 
 int binary_tree_is_avl(const binary_tree_t *tree);
 int btia_helper(const binary_tree_t *tree, int min, int max);
+avl_t *avl_insert(avl_t **tree, int value);
 
 #endif
