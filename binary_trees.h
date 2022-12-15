@@ -61,4 +61,7 @@ bst_t *bst_insert(bst_t **tree, int value);
 int bs_tree_preorder(bst_t *tree, int n);
 bst_t *array_to_bst(int *array, size_t size);
 bst_t *bst_search(const bst_t *tree, int value);
+bst_t *bst_remove(bst_t *root, int value);
+bst_t *find_node(bst_t *root, int value);
+bst_t *replace_with_successor(bst_t **node);
 #endif
