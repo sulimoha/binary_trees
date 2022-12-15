@@ -59,4 +59,5 @@ void inorder(binary_tree_t *root, binary_tree_t *prev[], int isvalid[]);
 
 bst_t *bst_insert(bst_t **tree, int value);
 int bs_tree_preorder(bst_t *tree, int n);
+bst_t *array_to_bst(int *array, size_t size);
 #endif
